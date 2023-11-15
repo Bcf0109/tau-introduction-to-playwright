@@ -5,9 +5,9 @@ import {test,expect} from '@playwright/test';
 //    await expect(page).toHaveTitle(/Google/);
  // });
 
-test.describe('Open Google', () => {
+//test.describe('Open Google', () => {
   test('Check its open', async ({ page }) => {
     await page.goto('https://www.google.com');
     await expect(page).toHaveTitle("Google");
     });
-  });
+  //});
